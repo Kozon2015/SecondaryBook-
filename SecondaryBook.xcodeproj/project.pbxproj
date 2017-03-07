@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954A1CBA1CAF960E00ECDA44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954A1CB91CAF960E00ECDA44 /* main.m */; };
+		954A1CBD1CAF960E00ECDA44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 954A1CBC1CAF960E00ECDA44 /* AppDelegate.m */; };
+		954A1CC51CAF960E00ECDA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954A1CC41CAF960E00ECDA44 /* Assets.xcassets */; };
+		954A1CC81CAF960E00ECDA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954A1CC61CAF960E00ECDA44 /* LaunchScreen.storyboard */; };
+		9562697F1CF1B0450088C3CD /* personInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9562697E1CF1B0450088C3CD /* personInfoTableViewController.m */; };
+		956269821CF1EDDA0088C3CD /* infoDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956269811CF1EDDA0088C3CD /* infoDetailTableViewController.m */; };
+		956269861CF8557E0088C3CD /* APIs.m in Sources */ = {isa = PBXBuildFile; fileRef = 956269851CF8557E0088C3CD /* APIs.m */; };
+		956269891CF86AE90088C3CD /* BRNetworkRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 956269881CF86AE90088C3CD /* BRNetworkRequests.m */; };
+		9562698C1CF89FF40088C3CD /* personInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9562698B1CF89FF40088C3CD /* personInfoTableViewCell.m */; };
+		956269C61CFF11B20088C3CD /* passwordSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956269C51CFF11B20088C3CD /* passwordSettingViewController.m */; };
+		956269CC1CFF3E250088C3CD /* commentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 956269CB1CFF3E250088C3CD /* commentTableViewCell.m */; };
+		956A31881CCB5A9100C08032 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 956A31871CCB5A9100C08032 /* PodFile */; };
+		957E25E51CD72EC50020926A /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957E25E11CD72EC50020926A /* MainPage.storyboard */; };
+		957E25EC1CD72FB50020926A /* BookListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E25EB1CD72FB50020926A /* BookListTableViewController.m */; };
+		957E25EF1CD72FF70020926A /* BookListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E25EE1CD72FF70020926A /* BookListTableViewCell.m */; };
+		957E25F41CD73E7F0020926A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E25F31CD73E7F0020926A /* ViewController.m */; };
+		957E25F71CD73F5D0020926A /* BookInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E25F61CD73F5D0020926A /* BookInfoTableViewController.m */; };
+		957E25FA1CD752690020926A /* PostBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E25F91CD752690020926A /* PostBarTableViewController.m */; };
+		957E25FD1CD9D5080020926A /* replyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E25FC1CD9D5080020926A /* replyViewController.m */; };
+		957E26001CD9D9E00020926A /* postViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E25FF1CD9D9E00020926A /* postViewController.m */; };
+		957E26031CDA51330020926A /* invitationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E26021CDA51330020926A /* invitationTableViewController.m */; };
+		957E26061CDA51EF0020926A /* invitationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E26051CDA51EF0020926A /* invitationTableViewCell.m */; };
+		95ADF2331CBA4A7A006F8968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95ADF2321CBA4A7A006F8968 /* Main.storyboard */; };
+		95ADF2391CC22BA0006F8968 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF2381CC22BA0006F8968 /* loginViewController.m */; };
+		95ADF23C1CC233B5006F8968 /* logonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ADF23B1CC233B5006F8968 /* logonViewController.m */; };
+		95C27F831CE842D500823BF9 /* invitationListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C27F821CE842D500823BF9 /* invitationListTableViewCell.m */; };
+		95C27F861CE8443700823BF9 /* invitationList.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C27F851CE8443700823BF9 /* invitationList.m */; };
+		95C27F8C1CEC380900823BF9 /* orderInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C27F8B1CEC380900823BF9 /* orderInfoViewController.m */; };
+		95CFF1C21D02ACA000C8F2A4 /* MyBookListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF1C11D02ACA000C8F2A4 /* MyBookListTableViewController.m */; };
+		95CFF1C51D02ACE000C8F2A4 /* bookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF1C41D02ACE000C8F2A4 /* bookTableViewCell.m */; };
+		95CFF1C81D02AFFD00C8F2A4 /* imageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF1C71D02AFFD00C8F2A4 /* imageTableViewCell.m */; };
+		95DF671E1CDB9E2900AE3A64 /* invitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DF671D1CDB9E2900AE3A64 /* invitation.m */; };
+		B0B6FB5506425C444F60E003 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F72B71D7C6F228F5A00FC49E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D6E328B283DF19DD95B06CA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		81637302A0E25E9EAFEA6973 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		954A1CB51CAF960E00ECDA44 /* SecondaryBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondaryBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		954A1CB91CAF960E00ECDA44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		954A1CBB1CAF960E00ECDA44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		954A1CBC1CAF960E00ECDA44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		954A1CC41CAF960E00ECDA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954A1CC71CAF960E00ECDA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		954A1CC91CAF960E00ECDA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9562697D1CF1B0450088C3CD /* personInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personInfoTableViewController.h; path = Main/Indivisiou/personInfoTableViewController.h; sourceTree = "<group>"; };
+		9562697E1CF1B0450088C3CD /* personInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = personInfoTableViewController.m; path = Main/Indivisiou/personInfoTableViewController.m; sourceTree = "<group>"; };
+		956269801CF1EDDA0088C3CD /* infoDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = infoDetailTableViewController.h; path = Main/Indivisiou/infoDetailTableViewController.h; sourceTree = "<group>"; };
+		956269811CF1EDDA0088C3CD /* infoDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = infoDetailTableViewController.m; path = Main/Indivisiou/infoDetailTableViewController.m; sourceTree = "<group>"; };
+		956269841CF8557E0088C3CD /* APIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIs.h; path = ConstantDatas/APIs.h; sourceTree = "<group>"; };
+		956269851CF8557E0088C3CD /* APIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIs.m; path = ConstantDatas/APIs.m; sourceTree = "<group>"; };
+		956269871CF86AE90088C3CD /* BRNetworkRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRNetworkRequests.h; path = ConstantDatas/BRNetworkRequests.h; sourceTree = "<group>"; };
+		956269881CF86AE90088C3CD /* BRNetworkRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRNetworkRequests.m; path = ConstantDatas/BRNetworkRequests.m; sourceTree = "<group>"; };
+		9562698A1CF89FF40088C3CD /* personInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personInfoTableViewCell.h; path = Main/Indivisiou/personInfoTableViewCell.h; sourceTree = "<group>"; };
+		9562698B1CF89FF40088C3CD /* personInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = personInfoTableViewCell.m; path = Main/Indivisiou/personInfoTableViewCell.m; sourceTree = "<group>"; };
+		956269C41CFF11B20088C3CD /* passwordSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = passwordSettingViewController.h; path = Main/Indivisiou/passwordSettingViewController.h; sourceTree = "<group>"; };
+		956269C51CFF11B20088C3CD /* passwordSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = passwordSettingViewController.m; path = Main/Indivisiou/passwordSettingViewController.m; sourceTree = "<group>"; };
+		956269CA1CFF3E250088C3CD /* commentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commentTableViewCell.h; path = Main/PostBar/commentTableViewCell.h; sourceTree = "<group>"; };
+		956269CB1CFF3E250088C3CD /* commentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = commentTableViewCell.m; path = Main/PostBar/commentTableViewCell.m; sourceTree = "<group>"; };
+		956A31871CCB5A9100C08032 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		957E25E11CD72EC50020926A /* MainPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainPage.storyboard; path = Main/MainPage.storyboard; sourceTree = "<group>"; };
+		957E25EA1CD72FB50020926A /* BookListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookListTableViewController.h; path = Main/Book/BookListTableViewController.h; sourceTree = "<group>"; };
+		957E25EB1CD72FB50020926A /* BookListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookListTableViewController.m; path = Main/Book/BookListTableViewController.m; sourceTree = "<group>"; };
+		957E25ED1CD72FF70020926A /* BookListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookListTableViewCell.h; path = Main/Book/BookListTableViewCell.h; sourceTree = "<group>"; };
+		957E25EE1CD72FF70020926A /* BookListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookListTableViewCell.m; path = Main/Book/BookListTableViewCell.m; sourceTree = "<group>"; };
+		957E25F21CD73E7F0020926A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Main/ViewController.h; sourceTree = "<group>"; };
+		957E25F31CD73E7F0020926A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Main/ViewController.m; sourceTree = "<group>"; };
+		957E25F51CD73F5D0020926A /* BookInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookInfoTableViewController.h; path = Main/Book/BookInfoTableViewController.h; sourceTree = "<group>"; };
+		957E25F61CD73F5D0020926A /* BookInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookInfoTableViewController.m; path = Main/Book/BookInfoTableViewController.m; sourceTree = "<group>"; };
+		957E25F81CD752690020926A /* PostBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostBarTableViewController.h; path = Main/PostBar/PostBarTableViewController.h; sourceTree = "<group>"; };
+		957E25F91CD752690020926A /* PostBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostBarTableViewController.m; path = Main/PostBar/PostBarTableViewController.m; sourceTree = "<group>"; };
+		957E25FB1CD9D5080020926A /* replyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = replyViewController.h; path = Main/PostBar/replyViewController.h; sourceTree = "<group>"; };
+		957E25FC1CD9D5080020926A /* replyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = replyViewController.m; path = Main/PostBar/replyViewController.m; sourceTree = "<group>"; };
+		957E25FE1CD9D9E00020926A /* postViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = postViewController.h; path = Main/PostBar/postViewController.h; sourceTree = "<group>"; };
+		957E25FF1CD9D9E00020926A /* postViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = postViewController.m; path = Main/PostBar/postViewController.m; sourceTree = "<group>"; };
+		957E26011CDA51330020926A /* invitationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = invitationTableViewController.h; path = Main/PostBar/invitationTableViewController.h; sourceTree = "<group>"; };
+		957E26021CDA51330020926A /* invitationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = invitationTableViewController.m; path = Main/PostBar/invitationTableViewController.m; sourceTree = "<group>"; };
+		957E26041CDA51EF0020926A /* invitationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = invitationTableViewCell.h; path = Main/PostBar/invitationTableViewCell.h; sourceTree = "<group>"; };
+		957E26051CDA51EF0020926A /* invitationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = invitationTableViewCell.m; path = Main/PostBar/invitationTableViewCell.m; sourceTree = "<group>"; };
+		95ADF2321CBA4A7A006F8968 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Login/Main.storyboard; sourceTree = "<group>"; };
+		95ADF2371CC22BA0006F8968 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loginViewController.h; path = Login/loginViewController.h; sourceTree = "<group>"; };
+		95ADF2381CC22BA0006F8968 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loginViewController.m; path = Login/loginViewController.m; sourceTree = "<group>"; };
+		95ADF23A1CC233B5006F8968 /* logonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logonViewController.h; path = Login/logonViewController.h; sourceTree = "<group>"; };
+		95ADF23B1CC233B5006F8968 /* logonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = logonViewController.m; path = Login/logonViewController.m; sourceTree = "<group>"; };
+		95C27F811CE842D500823BF9 /* invitationListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = invitationListTableViewCell.h; path = Main/PostBar/invitationListTableViewCell.h; sourceTree = "<group>"; };
+		95C27F821CE842D500823BF9 /* invitationListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = invitationListTableViewCell.m; path = Main/PostBar/invitationListTableViewCell.m; sourceTree = "<group>"; };
+		95C27F841CE8443700823BF9 /* invitationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = invitationList.h; path = Main/PostBar/invitationList.h; sourceTree = "<group>"; };
+		95C27F851CE8443700823BF9 /* invitationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = invitationList.m; path = Main/PostBar/invitationList.m; sourceTree = "<group>"; };
+		95C27F8A1CEC380900823BF9 /* orderInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = orderInfoViewController.h; path = Main/Book/orderInfoViewController.h; sourceTree = "<group>"; };
+		95C27F8B1CEC380900823BF9 /* orderInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = orderInfoViewController.m; path = Main/Book/orderInfoViewController.m; sourceTree = "<group>"; };
+		95CFF1C01D02ACA000C8F2A4 /* MyBookListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyBookListTableViewController.h; path = Main/Indivisiou/MyBookListTableViewController.h; sourceTree = "<group>"; };
+		95CFF1C11D02ACA000C8F2A4 /* MyBookListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyBookListTableViewController.m; path = Main/Indivisiou/MyBookListTableViewController.m; sourceTree = "<group>"; };
+		95CFF1C31D02ACE000C8F2A4 /* bookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bookTableViewCell.h; path = Main/Indivisiou/bookTableViewCell.h; sourceTree = "<group>"; };
+		95CFF1C41D02ACE000C8F2A4 /* bookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bookTableViewCell.m; path = Main/Indivisiou/bookTableViewCell.m; sourceTree = "<group>"; };
+		95CFF1C61D02AFFD00C8F2A4 /* imageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imageTableViewCell.h; path = Main/Book/imageTableViewCell.h; sourceTree = "<group>"; };
+		95CFF1C71D02AFFD00C8F2A4 /* imageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = imageTableViewCell.m; path = Main/Book/imageTableViewCell.m; sourceTree = "<group>"; };
+		95DF671C1CDB9E2900AE3A64 /* invitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = invitation.h; path = Main/PostBar/invitation.h; sourceTree = "<group>"; };
+		95DF671D1CDB9E2900AE3A64 /* invitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = invitation.m; path = Main/PostBar/invitation.m; sourceTree = "<group>"; };
+		F72B71D7C6F228F5A00FC49E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954A1CB21CAF960E00ECDA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B6FB5506425C444F60E003 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954A1CAC1CAF960E00ECDA44 = {
+			isa = PBXGroup;
+			children = (
+				956A31871CCB5A9100C08032 /* PodFile */,
+				957150E71CB0E53300B080BE /* Login */,
+				957E25D91CD72E040020926A /* Main */,
+				954A1CB71CAF960E00ECDA44 /* SecondaryBook */,
+				956269831CF84C6E0088C3CD /* ConstantDatas */,
+				954A1CB61CAF960E00ECDA44 /* Products */,
+				B3790D072B0315FB22BC3E5B /* Pods */,
+				EC518162901F74524D90972C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		954A1CB61CAF960E00ECDA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954A1CB51CAF960E00ECDA44 /* SecondaryBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954A1CB71CAF960E00ECDA44 /* SecondaryBook */ = {
+			isa = PBXGroup;
+			children = (
+				954A1CBB1CAF960E00ECDA44 /* AppDelegate.h */,
+				954A1CBC1CAF960E00ECDA44 /* AppDelegate.m */,
+				954A1CC41CAF960E00ECDA44 /* Assets.xcassets */,
+				954A1CC61CAF960E00ECDA44 /* LaunchScreen.storyboard */,
+				954A1CC91CAF960E00ECDA44 /* Info.plist */,
+				954A1CB81CAF960E00ECDA44 /* Supporting Files */,
+			);
+			path = SecondaryBook;
+			sourceTree = "<group>";
+		};
+		954A1CB81CAF960E00ECDA44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				954A1CB91CAF960E00ECDA44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		956269831CF84C6E0088C3CD /* ConstantDatas */ = {
+			isa = PBXGroup;
+			children = (
+				956269841CF8557E0088C3CD /* APIs.h */,
+				956269851CF8557E0088C3CD /* APIs.m */,
+				956269871CF86AE90088C3CD /* BRNetworkRequests.h */,
+				956269881CF86AE90088C3CD /* BRNetworkRequests.m */,
+			);
+			name = ConstantDatas;
+			sourceTree = "<group>";
+		};
+		957150E71CB0E53300B080BE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				95ADF2371CC22BA0006F8968 /* loginViewController.h */,
+				95ADF2381CC22BA0006F8968 /* loginViewController.m */,
+				95ADF2321CBA4A7A006F8968 /* Main.storyboard */,
+				95ADF23A1CC233B5006F8968 /* logonViewController.h */,
+				95ADF23B1CC233B5006F8968 /* logonViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		957E25D91CD72E040020926A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				957E25E11CD72EC50020926A /* MainPage.storyboard */,
+				957E25F21CD73E7F0020926A /* ViewController.h */,
+				957E25F31CD73E7F0020926A /* ViewController.m */,
+				957E25E71CD72EE40020926A /* Book */,
+				957E25E81CD72EEA0020926A /* PostBar */,
+				957E25E91CD72EF60020926A /* Indivisiou */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		957E25E71CD72EE40020926A /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				95CFF1C61D02AFFD00C8F2A4 /* imageTableViewCell.h */,
+				95CFF1C71D02AFFD00C8F2A4 /* imageTableViewCell.m */,
+				95C27F8A1CEC380900823BF9 /* orderInfoViewController.h */,
+				95C27F8B1CEC380900823BF9 /* orderInfoViewController.m */,
+				957E25F51CD73F5D0020926A /* BookInfoTableViewController.h */,
+				957E25F61CD73F5D0020926A /* BookInfoTableViewController.m */,
+				957E25ED1CD72FF70020926A /* BookListTableViewCell.h */,
+				957E25EE1CD72FF70020926A /* BookListTableViewCell.m */,
+				957E25EA1CD72FB50020926A /* BookListTableViewController.h */,
+				957E25EB1CD72FB50020926A /* BookListTableViewController.m */,
+			);
+			name = Book;
+			sourceTree = "<group>";
+		};
+		957E25E81CD72EEA0020926A /* PostBar */ = {
+			isa = PBXGroup;
+			children = (
+				956269CA1CFF3E250088C3CD /* commentTableViewCell.h */,
+				956269CB1CFF3E250088C3CD /* commentTableViewCell.m */,
+				95C27F841CE8443700823BF9 /* invitationList.h */,
+				95C27F851CE8443700823BF9 /* invitationList.m */,
+				95C27F811CE842D500823BF9 /* invitationListTableViewCell.h */,
+				95C27F821CE842D500823BF9 /* invitationListTableViewCell.m */,
+				957E25F81CD752690020926A /* PostBarTableViewController.h */,
+				957E25F91CD752690020926A /* PostBarTableViewController.m */,
+				957E25FE1CD9D9E00020926A /* postViewController.h */,
+				957E25FF1CD9D9E00020926A /* postViewController.m */,
+				95DF671C1CDB9E2900AE3A64 /* invitation.h */,
+				95DF671D1CDB9E2900AE3A64 /* invitation.m */,
+				957E26041CDA51EF0020926A /* invitationTableViewCell.h */,
+				957E26051CDA51EF0020926A /* invitationTableViewCell.m */,
+				957E26011CDA51330020926A /* invitationTableViewController.h */,
+				957E26021CDA51330020926A /* invitationTableViewController.m */,
+				957E25FB1CD9D5080020926A /* replyViewController.h */,
+				957E25FC1CD9D5080020926A /* replyViewController.m */,
+			);
+			name = PostBar;
+			sourceTree = "<group>";
+		};
+		957E25E91CD72EF60020926A /* Indivisiou */ = {
+			isa = PBXGroup;
+			children = (
+				95CFF1C31D02ACE000C8F2A4 /* bookTableViewCell.h */,
+				95CFF1C41D02ACE000C8F2A4 /* bookTableViewCell.m */,
+				95CFF1C01D02ACA000C8F2A4 /* MyBookListTableViewController.h */,
+				95CFF1C11D02ACA000C8F2A4 /* MyBookListTableViewController.m */,
+				956269C41CFF11B20088C3CD /* passwordSettingViewController.h */,
+				956269C51CFF11B20088C3CD /* passwordSettingViewController.m */,
+				9562698A1CF89FF40088C3CD /* personInfoTableViewCell.h */,
+				9562698B1CF89FF40088C3CD /* personInfoTableViewCell.m */,
+				956269801CF1EDDA0088C3CD /* infoDetailTableViewController.h */,
+				956269811CF1EDDA0088C3CD /* infoDetailTableViewController.m */,
+				9562697D1CF1B0450088C3CD /* personInfoTableViewController.h */,
+				9562697E1CF1B0450088C3CD /* personInfoTableViewController.m */,
+			);
+			name = Indivisiou;
+			sourceTree = "<group>";
+		};
+		B3790D072B0315FB22BC3E5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E328B283DF19DD95B06CA /* Pods.debug.xcconfig */,
+				81637302A0E25E9EAFEA6973 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC518162901F74524D90972C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72B71D7C6F228F5A00FC49E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954A1CB41CAF960E00ECDA44 /* SecondaryBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954A1CCC1CAF960E00ECDA44 /* Build configuration list for PBXNativeTarget "SecondaryBook" */;
+			buildPhases = (
+				41AA4493B40AE7D7E422CAC5 /* Check Pods Manifest.lock */,
+				954A1CB11CAF960E00ECDA44 /* Sources */,
+				954A1CB21CAF960E00ECDA44 /* Frameworks */,
+				954A1CB31CAF960E00ECDA44 /* Resources */,
+				B61ED0B259237611D7D5EBE8 /* Embed Pods Frameworks */,
+				4CA31A04BE141CC65CB5FBB4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondaryBook;
+			productName = SecondaryBook;
+			productReference = 954A1CB51CAF960E00ECDA44 /* SecondaryBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954A1CAD1CAF960E00ECDA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "625 Apps";
+				TargetAttributes = {
+					954A1CB41CAF960E00ECDA44 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 954A1CB01CAF960E00ECDA44 /* Build configuration list for PBXProject "SecondaryBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954A1CAC1CAF960E00ECDA44;
+			productRefGroup = 954A1CB61CAF960E00ECDA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954A1CB41CAF960E00ECDA44 /* SecondaryBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954A1CB31CAF960E00ECDA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957E25E51CD72EC50020926A /* MainPage.storyboard in Resources */,
+				954A1CC81CAF960E00ECDA44 /* LaunchScreen.storyboard in Resources */,
+				956A31881CCB5A9100C08032 /* PodFile in Resources */,
+				954A1CC51CAF960E00ECDA44 /* Assets.xcassets in Resources */,
+				95ADF2331CBA4A7A006F8968 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41AA4493B40AE7D7E422CAC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CA31A04BE141CC65CB5FBB4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61ED0B259237611D7D5EBE8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954A1CB11CAF960E00ECDA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9562697F1CF1B0450088C3CD /* personInfoTableViewController.m in Sources */,
+				95DF671E1CDB9E2900AE3A64 /* invitation.m in Sources */,
+				957E25F41CD73E7F0020926A /* ViewController.m in Sources */,
+				956269821CF1EDDA0088C3CD /* infoDetailTableViewController.m in Sources */,
+				95CFF1C81D02AFFD00C8F2A4 /* imageTableViewCell.m in Sources */,
+				95C27F8C1CEC380900823BF9 /* orderInfoViewController.m in Sources */,
+				957E25FA1CD752690020926A /* PostBarTableViewController.m in Sources */,
+				95ADF2391CC22BA0006F8968 /* loginViewController.m in Sources */,
+				956269CC1CFF3E250088C3CD /* commentTableViewCell.m in Sources */,
+				956269891CF86AE90088C3CD /* BRNetworkRequests.m in Sources */,
+				954A1CBD1CAF960E00ECDA44 /* AppDelegate.m in Sources */,
+				957E25EF1CD72FF70020926A /* BookListTableViewCell.m in Sources */,
+				957E25FD1CD9D5080020926A /* replyViewController.m in Sources */,
+				956269861CF8557E0088C3CD /* APIs.m in Sources */,
+				957E26061CDA51EF0020926A /* invitationTableViewCell.m in Sources */,
+				95CFF1C51D02ACE000C8F2A4 /* bookTableViewCell.m in Sources */,
+				95ADF23C1CC233B5006F8968 /* logonViewController.m in Sources */,
+				954A1CBA1CAF960E00ECDA44 /* main.m in Sources */,
+				957E26001CD9D9E00020926A /* postViewController.m in Sources */,
+				95CFF1C21D02ACA000C8F2A4 /* MyBookListTableViewController.m in Sources */,
+				957E25F71CD73F5D0020926A /* BookInfoTableViewController.m in Sources */,
+				956269C61CFF11B20088C3CD /* passwordSettingViewController.m in Sources */,
+				95C27F861CE8443700823BF9 /* invitationList.m in Sources */,
+				9562698C1CF89FF40088C3CD /* personInfoTableViewCell.m in Sources */,
+				957E26031CDA51330020926A /* invitationTableViewController.m in Sources */,
+				95C27F831CE842D500823BF9 /* invitationListTableViewCell.m in Sources */,
+				957E25EC1CD72FB50020926A /* BookListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		954A1CC61CAF960E00ECDA44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954A1CC71CAF960E00ECDA44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954A1CCA1CAF960E00ECDA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954A1CCB1CAF960E00ECDA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954A1CCD1CAF960E00ECDA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6E328B283DF19DD95B06CA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecondaryBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecondaryBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		954A1CCE1CAF960E00ECDA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81637302A0E25E9EAFEA6973 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecondaryBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecondaryBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954A1CB01CAF960E00ECDA44 /* Build configuration list for PBXProject "SecondaryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954A1CCA1CAF960E00ECDA44 /* Debug */,
+				954A1CCB1CAF960E00ECDA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954A1CCC1CAF960E00ECDA44 /* Build configuration list for PBXNativeTarget "SecondaryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954A1CCD1CAF960E00ECDA44 /* Debug */,
+				954A1CCE1CAF960E00ECDA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954A1CAD1CAF960E00ECDA44 /* Project object */;
+}
